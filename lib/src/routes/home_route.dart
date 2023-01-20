@@ -3,8 +3,6 @@ import 'package:elchef/src/modules/Home/home.dart';
 import 'package:elchef/src/modules/Home/home_bindings.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
-import '../modules/Home/home_page.dart';
-
 class HomeRoute {
   HomeRoute._();
 

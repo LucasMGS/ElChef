@@ -1,12 +1,10 @@
-import 'package:elchef/src/modules/Home/home_controller.dart';
 import 'package:elchef/src/repositories/recipes/irecipe_repository.dart';
 import 'package:elchef/src/repositories/recipes/recipe_repository.dart';
 import 'package:get/get.dart';
 
-class HomeBinding implements Bindings {
+class RecipeDetailBinding implements Bindings {
   @override
   void dependencies() {
     Get.lazyPut<IRecipeRepository>(() => RecipeRepository());
-    Get.put(HomeController(), permanent: true);
   }
 }
